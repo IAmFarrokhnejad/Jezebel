@@ -11,4 +11,4 @@ The application incorporates various functionalities, such as speech recognition
 Important notes:
 - Make sure you have the required libraries installed before running the code.
 - Preferably use a microphone for convenience.
-  
+- All important notes and details related to bug fixes and improvements are commented.
