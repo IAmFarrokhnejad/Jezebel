@@ -15,7 +15,7 @@ import threading
 
 openai.api_key = "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"  # openai.apikey
 engine = pyttsx3.init()
-
+#Author: Morteza Farrokhnejad
 # Self-explanatory
 def generateResponse(prompt):  # Fixed: genereateResponse should be generateResponse
     response = openai.Completion.create(  # Fixed: openai.Completion.create
