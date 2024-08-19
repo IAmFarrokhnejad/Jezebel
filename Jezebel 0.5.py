@@ -14,7 +14,7 @@ import ytmusicapi
 import threading
 import webbrowser
 import re
-
+#Author: Morteza Farrokhnejad
 openai.api_key = "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"  # openai.apikey
 engine = pyttsx3.init()
 ytmusic = ytmusicapi.YTMusic()
