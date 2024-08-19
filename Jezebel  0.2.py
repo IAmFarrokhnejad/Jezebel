@@ -14,6 +14,8 @@ openai.api_key = "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" #openai.a
 
 engine = pyttsx3.init()
 
+#Author: Morteza Farrokhnejad
+
 # Text to speech
 def audioToText(filename):
     recognizer = sr.Recognizer()  # Fixed: recognizer should be Recognizer
