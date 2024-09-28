@@ -16,6 +16,18 @@ Commencing with version 0.7, the ensuing editions will be private.
   4. GUI Improvements: Added more GUI elements for better user interaction and feedback.
   5. Command Execution: Added the ability to open websites and run simple system commands.
 
+## Key Changes on version 0.7:
+  1. Added "Weather Information Retrieval" feature
+  2. Added "Reminder/Timer" functionality
+  3. Added "News Headlines" feature
+  4. Added "Joke Telling" feature
+  5. Added "Text-to-Command Mapping for Common Tasks" so the application can perform local tasks
+  6. Added Voice feedback toggle to allow users to toggle between Jezebel responding via text only or voice
+#####  7. From this version on, 3 API keys will be reqiured: An OpenAI API key, an OpenWeatherMap API key, and a NewsAPI key
+  8. Re-organized the core functionalities
+  9. Added/improved exception handling; especially for external APIs and speech recognition errors.
+  10. Added dynamic voice selection that provides an option to change the voice dynamically instead of hardcoding it
+      
 ## Summary of Enhancements on the definitive version:
   - Error Handling: The code now includes more robust error handling, which will help in troubleshooting any issues that arise.
   - Continuous Listening Mode: You can now toggle between single and continuous listening modes for more versatility.
@@ -27,4 +39,4 @@ Commencing with version 0.7, the ensuing editions will be private.
 # Important notes:
 - Make sure you have the required libraries installed before running the code.
 - Preferably use a microphone for convenience.
-- All important notes and details related to bug fixes and improvements are commented.
+- Version 0.7 and above require 3 API keys. Check they "Key Changes" above.
