@@ -13,7 +13,7 @@ import tkinter as tk
 import webbrowser
 import threading
 
-openai.api_key = "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"  # openai.apikey
+openai.api_key = "KEY GOES HERE"  # OPENAI API KEY GOES HEREopenai.apikey
 engine = pyttsx3.init()
 #Author: Morteza Farrokhnejad
 # Self-explanatory
