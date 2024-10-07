@@ -15,7 +15,7 @@ import os
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-openai.api_key = "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"  # openai.apikey
+openai.api_key = "KEY GOES HERE"  # OPENAI API KEY GOES HERE openai.apikey
 engine = pyttsx3.init()
 ytmusic = ytmusicapi.YTMusic()
 
