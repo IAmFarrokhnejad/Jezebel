@@ -9,11 +9,11 @@ The application incorporates various functionalities, such as speech recognition
 
 
 ## Key Changes on version 0.6:
-  1. Error Handling: Enhanced error handling to manage different exceptions more gracefully.
-  2. Logging: Added basic logging for debugging and tracking issues.
-  3. Continuous Listening Mode: Added an option to toggle between single and continuous listening modes.
-  4. GUI Improvements: Added more GUI elements for better user interaction and feedback.
-  5. Command Execution: Added the ability to open websites and run simple system commands.
+  1. Enhanced error handling to manage different exceptions more gracefully.
+  2. Added basic logging for debugging and tracking issues.
+  3. Added an option to toggle between single and continuous listening modes.
+  4. Added more GUI elements for better user interaction and feedback.
+  5. Added the ability to open websites and run simple system commands.
 
 ## Key Changes on version 0.7:
   1. Added "Weather Information Retrieval" feature
@@ -26,16 +26,9 @@ The application incorporates various functionalities, such as speech recognition
   8. Re-organized the core functionalities
   9. Added/improved exception handling; especially for external APIs and speech recognition errors.
   10. Added dynamic voice selection that provides an option to change the voice dynamically instead of hardcoding it
-      
-## Summary of Enhancements on the definitive version:
-  - Error Handling: The code now includes more robust error handling, which will help in troubleshooting any issues that arise.
-  - Continuous Listening Mode: You can now toggle between single and continuous listening modes for more versatility.
-  - Website Opening and Command Execution: The assistant can now open websites or execute system commands directly from voice commands.
-  - Logging: Basic logging is added to help with debugging and tracking the assistant’s behavior.
-  - Improved GUI: The GUI has been enhanced with a button to toggle the continuous listening mode.
 
 
 # Important notes:
 - Make sure you have the required libraries installed before running the code.
 - Preferably use a microphone for convenience.
-- Version 0.7 and above require 3 API keys. Check they "Key Changes" above.
+- Version 0.7 and above require 3 API keys. Check they "Key Changes" above. Previous versions only require the OpenAI API key.
