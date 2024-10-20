@@ -27,8 +27,22 @@ The application incorporates various functionalities, such as speech recognition
   9. Added/improved exception handling; especially for external APIs and speech recognition errors.
   10. Added dynamic voice selection that provides an option to change the voice dynamically instead of hardcoding it
 
+## Key Changes on version 0.8:
+  1. Added "Weather Information Retrieval" feature
+  2. Used python-dotenv to load API keys from a .env file, improving security
+  3. Updated to use the ChatCompletion API with the GPT-3.5-turbo model, which is more advanced and cost-effective
+  4. Increased timeout and phrase time limit for better user experience
+  5. Implemented a more efficient command processing system using a dictionary of functions
+  6. Improved error handling and logging throughout the code
+  7. GUI improvements
+  8. Implemented the play_song function using ytmusicapi
+  9. Added a basic open_website function
+  10. Included a placeholder for the run_command function (disabled for security reasons)
+  11. Reorganized the code for better readability and maintainability
 
 # Important notes:
 - Make sure you have the required libraries installed before running the code.
 - Preferably use a microphone for convenience.
-- Version 0.7 and above require 3 API keys. Check they "Key Changes" above. Previous versions only require the OpenAI API key.
+- To use V 0.8 and above, you'll need to:
+  1. Install additional dependencies: python-dotenv
+  2. Create a .env file in the same directory as the script with your API keys
