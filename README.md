@@ -27,7 +27,7 @@ The application incorporates various functionalities, such as speech recognition
   9. Added/improved exception handling; especially for external APIs and speech recognition errors.
   10. Added dynamic voice selection that provides an option to change the voice dynamically instead of hardcoding it
 
-## Key Changes on version 0.8:
+## Key Changes on version 0.8.0:
   1. Added "Weather Information Retrieval" feature
   2. Used python-dotenv to load API keys from a .env file, improving security
   3. Updated to use the ChatCompletion API with the GPT-3.5-turbo model, which is more advanced and cost-effective
